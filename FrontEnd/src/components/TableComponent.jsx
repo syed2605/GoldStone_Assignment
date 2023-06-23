@@ -149,6 +149,14 @@ function TableComponent() {
         <FormLabel>Email</FormLabel>
         <Input placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
       </FormControl>
+      <FormControl mt={4}>
+        <FormLabel>Status</FormLabel>
+        <Input placeholder="Email" value={status} onChange={(e) => setEmail(e.target.status)} />
+      </FormControl>
+      <FormControl mt={4}>
+        <FormLabel>Gender</FormLabel>
+        <Input placeholder="Email" value={gender} onChange={(e) => setEmail(e.target.gender)} />
+      </FormControl>
     </ModalBody>
 
     <ModalFooter>

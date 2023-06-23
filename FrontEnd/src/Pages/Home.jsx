@@ -6,7 +6,7 @@ import axios from 'axios';
 function Home() {
   const MICROSERVICE3_URL = "http://localhost:8082";
     const getData=async ()=>{
-      await axios.get(`${MICROSERVICE3_URL}/export-csv`)
+      axios.get(`${MICROSERVICE3_URL}/export-csv`)
     .then(function (response) {
       console.log("d");
     })
