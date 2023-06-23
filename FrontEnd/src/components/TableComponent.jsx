@@ -37,11 +37,15 @@ function TableComponent() {
     const { isOpen, onOpen, onClose } = useDisclosure();
     const initialRef = React.useRef(null)
     const finalRef = React.useRef(null)
-
+    const [bool,setBool]=useState(false);
 
     useEffect(()=>{
         getData();
     },[]);
+
+    useEffect(()=>{
+      getData();
+  },[bool]);
 
     const handleSave = () => {
         getData();
@@ -63,7 +67,7 @@ function TableComponent() {
             console.log(error);
             // Handle error response
           });
-      
+        setBool(!bool);
         onClose();
       };
       
@@ -72,6 +76,7 @@ function TableComponent() {
       .then(function (response) {
         console.log(response.data.data,"daaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
         setData(response.data);
+        
       })
       .catch(function (error) {
         console.log(error);

@@ -2,7 +2,7 @@ import React from 'react'
 import TableComponent from '../components/TableComponent'
 import { Button, ButtonGroup } from '@chakra-ui/react'
 import { Text,Box } from '@chakra-ui/react'
-
+import axios from 'axios';
 function Home() {
   const MICROSERVICE3_URL = "http://localhost:8082";
     const getData=async ()=>{
