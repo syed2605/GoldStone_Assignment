@@ -25,8 +25,8 @@ import {
     ModalCloseButton,
   } from '@chakra-ui/react'
 function TableComponent() {
-    const MICROSERVICE1_URL = "http://localhost:8080";
-    const MICROSERVICE2_URL = "http://localhost:8081";
+    const MICROSERVICE1_URL = "https://plain-capris-eel.cyclic.app";
+    const MICROSERVICE2_URL = "https://tame-gold-hummingbird-wrap.cyclic.app";
     const MICROSERVICE3_URL = "http://localhost:8082";
     const [data,setData]=useState([]);
     const [id,setId]=useState();
