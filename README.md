@@ -35,7 +35,7 @@ Before running the application, ensure that you have the following software inst
 4. Full Stack Application - https://syed2605-goldstone-deploy.vercel.app/ - By hitting this url - will display show the userdata & by clicking on edit, we can edit the respective user data.
 
 ### Images of Full Satck Application
-<img src="./Deploy-Images/w1.JPG"/>
+<img src="./Deploy-Images/q1.JPG"/>
 <br><br>
-<img src="./Deploy-Images/w2.JPG"/>
+<img src="./Deploy-Images/q2.JPG"/>
 <br><br>
